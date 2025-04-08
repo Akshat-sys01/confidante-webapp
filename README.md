@@ -1,54 +1,25 @@
-# React + TypeScript + Vite
+Confidante 🧠💬
+Confidante is a health-tech startup bridging the gap between awareness and action in mental health, sex education, and emotional well-being.
+We aim to bring health education into schools and create accessible platforms that foster real change among youth.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Project Overview
+This repository is part of Confidante's initiative to build a digital platform that:
 
-Currently, two official plugins are available:
+Educates students on sensitive and essential topics
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Encourages open conversation around mental and emotional health
 
-## Expanding the ESLint configuration
+Offers tools and resources for well-being in a safe and inclusive environment
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+📦 Features
+🧠 Mental health awareness modules
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+📚 Interactive sex education content
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+🧘 Emotional well-being exercises
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+🧑‍🏫 Admin panel for school-level content delivery
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+📊 Progress tracking and feedback
+
+🔒 Secure and private user interactions
